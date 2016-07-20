@@ -1,0 +1,1 @@
+insert into bringme.poster (id, name, surname) values ('1', 'Martin', 'Fowler');

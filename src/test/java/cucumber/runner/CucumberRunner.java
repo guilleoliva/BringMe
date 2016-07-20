@@ -7,5 +7,5 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/cucumber/", glue = "cucumber.steps", tags = "@helloworld")
-public class CucumberRunnerIntegrationTest {
+public class CucumberRunner {
 }

@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: BringMe
+    datasource:
+        driverClassName: org.hsqldb.jdbcDriver
+        url: jdbc:hsqldb:mem:testdb
+        username: sa
+        password:
+        max-active: 10
+        validation-query: SELECT 1
+server:
+    port: 8080
