@@ -10,3 +10,6 @@ spring:
         validation-query: SELECT 1
 server:
     port: 8080
+credentials:
+    user: bringme
+    password: bringme
