@@ -4,11 +4,13 @@ spring:
     datasource:
         driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/bringme
-        username: root
-        password: password
+        username: bringme
+        password: bringme
 server:
     port: 8080
-
+credentials:
+  user: bringme
+  password: bringme
 ---
 
 spring:
