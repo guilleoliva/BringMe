@@ -6,6 +6,10 @@ spring:
         url: jdbc:mysql://localhost:3306/bringme
         username: bringme
         password: bringme
+    social:
+        facebook:
+            appId: 1753811371523447
+            appSecret: e52f7f8deb584fe23de12b3937d5a4d9
 server:
     port: 8080
 credentials:
